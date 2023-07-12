@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #140129;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container #left, .container #right {
+  width: 200px;
+  height: 300px;
+  border: 2px dashed white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container #left .list, .container #right .list {
+  width: 150px;
+  padding: 10px 5px;
+  background: #9768c9;
+}
+.container #left .list img, .container #right .list img {
+  width: 20px;
+}/*# sourceMappingURL=myStyle.css.map */
